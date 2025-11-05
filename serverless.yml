@@ -28,7 +28,7 @@ functions:
           method: post
           cors: true
           integration: lambda
-crear_bucket:
+  crear_bucket:
     handler: crear_bucket.lambda_handler
     events:
       - http:
